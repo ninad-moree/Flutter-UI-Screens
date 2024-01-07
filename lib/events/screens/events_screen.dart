@@ -24,7 +24,7 @@ class EventsScreen extends StatelessWidget {
                   // APPBAR
                   AppbarWidget(),
 
-                  SizedBox(height: 20),
+                  SizedBox(height: 15),
 
                   // EVENT CARD
                   Padding(

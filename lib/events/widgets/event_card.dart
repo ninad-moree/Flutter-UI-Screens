@@ -6,6 +6,7 @@ class EventCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     const AssetImage assetImage = AssetImage('assets/images/xenia.png');
+    final Size screenSize = MediaQuery.of(context).size;
 
     return GestureDetector(
       onTap: () {},
@@ -16,8 +17,8 @@ class EventCard extends StatelessWidget {
         child: ClipRRect(
           borderRadius: BorderRadius.circular(20),
           child: Container(
-            height: 350,
-            width: 350,
+            height: screenSize.height * 0.35,
+            width: screenSize.width * 0.75,
             // width: double.maxFinite,
             decoration: const BoxDecoration(
               color: Colors.transparent,
