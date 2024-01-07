@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pcsb_event_screen/events/widgets/appbar.dart';
-import 'package:pcsb_event_screen/events/widgets/event_backdrop.dart';
-import 'package:pcsb_event_screen/events/widgets/event_card.dart';
+
+import '../widgets/appbar.dart';
+import '../widgets/event_backdrop.dart';
+import '../widgets/event_card.dart';
 
 class EventsScreen extends StatelessWidget {
   const EventsScreen({super.key});

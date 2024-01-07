@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pcsb_event_screen/events/screens/events_screen.dart';
+
+import 'events/screens/events_screen.dart';
 
 void main() {
   runApp(const MyApp());
