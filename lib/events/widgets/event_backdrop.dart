@@ -5,11 +5,14 @@ import 'package:flutter/material.dart';
 class EventBackDrop extends StatelessWidget {
   const EventBackDrop({
     super.key,
+    required this.assetImage,
   });
+
+  final AssetImage assetImage;
 
   @override
   Widget build(BuildContext context) {
-    const AssetImage assetImage = AssetImage('assets/images/xenia.png');
+    // const AssetImage assetImage = AssetImage('assets/images/xenia.png');
     final Size screenSize = MediaQuery.of(context).size;
 
     return SizedBox(

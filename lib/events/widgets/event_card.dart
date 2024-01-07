@@ -1,11 +1,15 @@
 import 'package:flutter/material.dart';
 
 class EventCard extends StatelessWidget {
-  const EventCard({super.key});
+  const EventCard({
+    super.key,
+    required this.assetImage,
+  });
+
+  final AssetImage assetImage;
 
   @override
   Widget build(BuildContext context) {
-    const AssetImage assetImage = AssetImage('assets/images/xenia.png');
     final Size screenSize = MediaQuery.of(context).size;
 
     return GestureDetector(
@@ -20,7 +24,7 @@ class EventCard extends StatelessWidget {
             height: screenSize.height * 0.35,
             width: screenSize.width * 0.75,
             // width: double.maxFinite,
-            decoration: const BoxDecoration(
+            decoration: BoxDecoration(
               color: Colors.transparent,
               image: DecorationImage(
                 image: assetImage,
