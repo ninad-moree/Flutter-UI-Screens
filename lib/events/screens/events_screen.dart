@@ -68,11 +68,13 @@ class EventsScreen extends StatelessWidget {
                     width: MediaQuery.of(context).size.width,
                     padding: const EdgeInsets.all(10),
                     child: Text(
-                      "PCSB welcomes you to the commencement ceremony of its annual techfest Xenia '22. A platform for students to showcase their technical and non-technical soundness. An explosion 💥 of creative innovations. An arena to compete, excel, and prove themselves. An event bombarded with talents.",
+                      "PCSB welcomes you to the commencement ceremony of its annual techfest Xenia '22. ",
                       style: Theme.of(context).textTheme.bodyMedium!,
                       textAlign: TextAlign.justify,
                     ),
                   ),
+
+                  const SizedBox(height: 30),
 
                   // EVENT TIME AND DATE WITH ICON (ROW)
                   const Padding(
