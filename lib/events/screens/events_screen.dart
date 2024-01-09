@@ -116,7 +116,7 @@ class EventsScreen extends StatelessWidget {
                 ),
               ),
               Container(
-                padding: EdgeInsets.symmetric(horizontal: 10,vertical: 10),
+                padding: EdgeInsets.symmetric(horizontal: 20,vertical: 30),
                 child: AppbarWidget(),
               ),
 
