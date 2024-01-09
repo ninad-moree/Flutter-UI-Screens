@@ -10,6 +10,9 @@ class EventsScreen extends StatelessWidget {
 
   // final String title;
   // final String description;
+  // final String image;
+  // final String fee, eventType, pointOfContact, date , time;
+  // final int noOfParticipants;
 
   @override
   Widget build(BuildContext context) {
