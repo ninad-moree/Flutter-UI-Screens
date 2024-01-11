@@ -39,6 +39,8 @@ class MenuScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Spacer(),
+
+              // Profile Section
               const Padding(
                 padding: EdgeInsets.all(8),
                 child: Column(
@@ -59,9 +61,25 @@ class MenuScreen extends StatelessWidget {
                 ),
               ),
               // const Spacer(),
+
               const SizedBox(height: 30),
+
+              // Listitle Section
               ...MenuItems.menus.map(buildMenuItems).toList(),
+
               const Spacer(flex: 2),
+
+              // Logout Button
+              ListTileTheme(
+                selectedColor: Colors.black26,
+                child: ListTile(
+                  selectedTileColor: Colors.black26,
+                  leading: const Icon(Icons.logout),
+                  title: const Text('Logout'),
+                  onTap: () {},
+                ),
+              ),
+              const Spacer(flex: 1),
             ],
           ),
         ),
