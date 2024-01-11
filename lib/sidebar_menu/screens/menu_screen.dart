@@ -39,6 +39,27 @@ class MenuScreen extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Spacer(),
+              const Padding(
+                padding: EdgeInsets.all(8),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    CircleAvatar(
+                      backgroundColor: Colors.transparent,
+                      radius: 40,
+                      backgroundImage: AssetImage('assets/images/profile.png'),
+                    ),
+                    SizedBox(height: 10),
+                    Text(
+                      'Ninad More', // Replace with the actual user's name
+                      style:
+                          TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+                    ),
+                  ],
+                ),
+              ),
+              // const Spacer(),
+              const SizedBox(height: 30),
               ...MenuItems.menus.map(buildMenuItems).toList(),
               const Spacer(flex: 2),
             ],
