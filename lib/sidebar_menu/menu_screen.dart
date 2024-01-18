@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import '../model/menu_item.dart';
+import 'model/menu_item.dart';
 
 class MenuItems {
   static const profile = MenuItem('Profile', Icons.person);

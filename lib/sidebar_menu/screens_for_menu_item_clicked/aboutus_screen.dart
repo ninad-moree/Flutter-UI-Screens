@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-import '../../widgets/menu_widget.dart';
+import '../widgets/menu_widget.dart';
 
-class ProfileScreen extends StatelessWidget {
-  const ProfileScreen({super.key});
+class AboutUsScreen extends StatelessWidget {
+  const AboutUsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: const Text('Profile'),
+        title: const Text('About Us'),
         leading: const MenuWidget(),
       ),
     );

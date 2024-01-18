@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-import '../../widgets/menu_widget.dart';
+import '../widgets/menu_widget.dart';
 
-class NonTechEventsScreen extends StatelessWidget {
-  const NonTechEventsScreen({super.key});
+class TechEventsScreen extends StatelessWidget {
+  const TechEventsScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: const Text('Non Tech Events'),
+        title: const Text('Tech Events'),
         leading: const MenuWidget(),
       ),
     );

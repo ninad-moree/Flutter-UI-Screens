@@ -1,16 +1,16 @@
 import 'package:flutter/material.dart';
 
-import '../../widgets/menu_widget.dart';
+import '../widgets/menu_widget.dart';
 
-class TechEventsScreen extends StatelessWidget {
-  const TechEventsScreen({super.key});
+class DeveloperScreen extends StatelessWidget {
+  const DeveloperScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.blue,
-        title: const Text('Tech Events'),
+        title: const Text('Developers'),
         leading: const MenuWidget(),
       ),
     );

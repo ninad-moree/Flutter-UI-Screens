@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_zoom_drawer/flutter_zoom_drawer.dart';
 
-import '../model/menu_item.dart';
+import 'model/menu_item.dart';
 import 'menu_screen.dart';
 import 'screens_for_menu_item_clicked/aboutus_screen.dart';
 import 'screens_for_menu_item_clicked/developer_screen.dart';
