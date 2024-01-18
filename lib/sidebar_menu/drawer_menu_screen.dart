@@ -18,8 +18,8 @@ class MenuItems {
   ];
 }
 
-class MenuScreen extends StatelessWidget {
-  const MenuScreen({
+class DrawerMenuScreen extends StatelessWidget {
+  const DrawerMenuScreen({
     super.key,
     required this.currentItem,
     required this.onSelectedItem,
@@ -33,7 +33,7 @@ class MenuScreen extends StatelessWidget {
     return Theme(
       data: ThemeData.dark(),
       child: Scaffold(
-        backgroundColor: Colors.indigo,
+        backgroundColor: const Color.fromARGB(255, 29, 29, 29),
         body: SafeArea(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
