@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pcsb_event_screen/sidebar_menu/drawer_screen.dart';
+
+import 'authentication/sign_in.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark(),
-      home: const DrawerScreen(),
+      home: const SignInScreen(),
     );
   }
 }
