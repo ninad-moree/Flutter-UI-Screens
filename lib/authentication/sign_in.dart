@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pcsb_event_screen/sidebar_menu/drawer_screen.dart';
 
 import 'sign_up.dart';
 import 'widget/button.dart';
@@ -115,7 +116,7 @@ class _SignInScreenState extends State<SignInScreen> {
                             onPress: () {
                               Navigator.of(context).push(
                                 MaterialPageRoute(
-                                  builder: (context) => const Drawer(),
+                                  builder: (context) => const DrawerScreen(),
                                 ),
                               );
                             },

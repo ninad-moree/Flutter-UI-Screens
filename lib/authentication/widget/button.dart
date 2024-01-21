@@ -35,7 +35,10 @@ class ButtonWidget extends StatelessWidget {
           onPressed: onPress,
           child: Padding(
             padding: const EdgeInsets.only(top: 18, bottom: 18),
-            child: Text(text),
+            child: Text(
+              text,
+              style: const TextStyle(color: Colors.white),
+            ),
           ),
         ),
       ),

@@ -9,8 +9,11 @@ class TechEventsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
-        title: const Text('Tech Events'),
+        backgroundColor: Colors.orange,
+        title: const Text(
+          'Tech Events',
+          style: TextStyle(color: Colors.white),
+        ),
         leading: const MenuWidget(),
       ),
     );

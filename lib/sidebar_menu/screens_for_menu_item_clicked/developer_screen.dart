@@ -9,8 +9,11 @@ class DeveloperScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
-        title: const Text('Developers'),
+        backgroundColor: Colors.orange,
+        title: const Text(
+          'Developers',
+          style: TextStyle(color: Colors.white),
+        ),
         leading: const MenuWidget(),
       ),
     );

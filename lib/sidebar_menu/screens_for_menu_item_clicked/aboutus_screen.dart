@@ -9,8 +9,11 @@ class AboutUsScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.blue,
-        title: const Text('About Us'),
+        backgroundColor: Colors.orange,
+        title: const Text(
+          'About Us',
+          style: TextStyle(color: Colors.white),
+        ),
         leading: const MenuWidget(),
       ),
     );
